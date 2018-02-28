@@ -1,0 +1,63 @@
+import WeStyleSheet from "../../../components/WeStyleSheet";
+import colorStyle from "../../../components/color/styles"
+import fontStyle from "../../../components/font/styles"
+export default WeStyleSheet.create({
+    container:{
+        flex:1,
+        backgroundColor:colorStyle.white,
+    },
+    list:{
+        marginLeft:46,
+        marginRight:46,
+    },
+    item:{
+        paddingBottom:40,
+        borderBottomWidth:1,
+        borderStyle:"solid",
+        borderBottomColor:colorStyle.border,
+    },
+    operation:{
+        display:"flex",
+        flexDirection:"row",
+        flexWrap:"nowrap",
+        justifyContent:"space-between",
+        alignItems:"center",
+        marginTop:52,
+    },
+    browse:{
+        fontSize:fontStyle.fontNav,
+        color:colorStyle.title
+    },
+    interactive:{
+        display:"flex",
+        flexDirection:"row",
+        flexWrap:"nowrap",
+        justifyContent:"space-between",
+    },
+    row:{
+        display:"flex",
+        flexDirection:"row",
+        flexWrap:"nowrap",
+        alignItems:"center",
+    },
+    iconGood:{
+        width:34,
+        height:34,
+        marginRight:14,
+    },
+    good:{
+      fontSize:fontStyle.fontNav,
+      color:colorStyle.title,
+    },
+    iconComponent:{
+        width:36,
+        height:34,
+        marginRight:18,
+    },
+    line:{
+        fontSize:fontStyle.fontNav,
+        color:colorStyle.title,
+        marginLeft:34,
+        marginRight:34,
+    }
+})
